@@ -132,16 +132,23 @@
 
 ---
 
-## 6. Disable Windows Firewall
+## 6. Accessing the VM
 
-### Access the VM
-1. Use RDP to connect to the VM.
-2. Log in with the administrator credentials.
+### Logging in through RDP
+1. Copy the VM's public IP address.
+
+![Copy IP](screenshots/setup18.png)
+
+2. Use RDP to connect to the VM.
+
+![RDP](screenshots/setup19.png)
+
+3. Log in with the administrator credentials.
+
+![RDP Admin login](screenshots/setup20.png)
 
 ### Disable the Firewall
 1. Open **Windows Defender Firewall** settings.
 2. Disable both **Public** and **Private** firewalls.
 
 ---
-
-This revised version ensures a consistent and professional structure, with clear sectioning and explanations for each step. Let me know if you'd like further tweaks or additions! 🚀
