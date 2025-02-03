@@ -3,23 +3,10 @@
 ## Table of Contents
 1. [Create an Azure Account](#1-create-an-azure-account)
 2. [Deploy the Virtual Machine (VM)](#2-deploy-the-virtual-machine-vm)
-   - [Navigate to Virtual Machines](#navigate-to-virtual-machines)
-   - [Configure the VM](#configure-the-vm)
-   - [Configure Administrator Account](#configure-administrator-account)
-   - [Configure Network Settings](#configure-network-settings)
-   - [Review and Create](#review-and-create)
 3. [Create Log Analytics Workspace](#3-create-log-analytics-workspace)
 4. [Configuring Microsoft Defender for Cloud](#4-configuring-microsoft-defender-for-cloud)
-   - [Access Microsoft Defender for Cloud](#access-microsoft-defender-for-cloud)
-   - [Enable Defender Plans](#enable-defender-plans)
-   - [Configure Data Collection](#configure-data-collection)
 5. [Connecting the Honeypot VM to Sentinel](#5-connecting-the-honeypot-vm-to-sentinel)
-   - [Open Microsoft Sentinel](#open-microsoft-sentinel)
-   - [Create Microsoft Sentinel Instance](#create-microsoft-sentinel-instance)
-   - [Connect the Honeypot VM](#connect-the-honeypot-vm)
 6. [Accessing the VM](#6-accessing-the-vm)
-   - [Logging in through RDP](#logging-in-through-rdp)
-   - [Disable Windows Firewall](#disable-windows-firewall)
 
 ---
 
