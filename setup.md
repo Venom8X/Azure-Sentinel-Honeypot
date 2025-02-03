@@ -72,15 +72,16 @@
 
 ## 3. Create Logs Analytics Workspaces
 1. Search for **Log Analytics Workspaces** in the Azure Portal.
-2. Click **+ Create** and fill in:
+
+![LAW](screenshots/setup5.png)  
+![LAW2](screenshots/setup6.png)
+
+2. Click **Review + Create** and fill in:
    - **Subscription**: Use your active subscription.
    - **Resource Group**: Select `Honeypot-RG`.
    - **Name**: Set a name (e.g., `LAW-Honeypot`).
    - **Region**: Choose a location (e.g., `West US 2`).
 3. Click **Review + Create**, then **Create**.
-
-![LAW](screenshots/setup5.png)  
-![LAW2](screenshots/setup6.png)
 
 **Note**: This workspace serves as the hub for storing, analyzing, and querying honeypot log data.
 
