@@ -6,7 +6,6 @@
 - [Skills Demonstrated](#skills-demonstrated)
 - [Technologies Used](#technologies-used)
 - [Screenshots & Documentation](#screenshots--documentation)
-- [Getting Started](#getting-started)
 - [Future Enhancements](#future-enhancements)
 - [Step 1: Setup](setup.md)
 
@@ -54,12 +53,6 @@ As you follow along, refer to the **setup.md** and other documentation files for
 - **Firewall settings and Log Analytics configuration**.  
 - **PowerShell script execution and log extraction results**.  
 - **Azure Sentinel attack visualization on a world map**.  
-
-## Getting Started
-To replicate this project:
-1. **Follow setup.md** to deploy the honeypot VM in Azure.
-2. **Run the PowerShell script** to extract and analyze RDP attack logs.
-3. **Use Azure Sentinel** to visualize the geolocated attack data.
 
 ## Future Enhancements
 Potential improvements include:
