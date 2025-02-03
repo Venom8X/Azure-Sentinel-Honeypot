@@ -74,7 +74,6 @@
 1. Search for **Log Analytics Workspaces** in the Azure Portal.
 
 ![LAW](screenshots/setup5.png)  
-![LAW2](screenshots/setup6.png)
 
 2. Click **Review + Create** and fill in:
    - **Subscription**: Use your active subscription.
@@ -83,6 +82,8 @@
    - **Region**: Choose a location (e.g., `West US 2`).
 3. Click **Review + Create**, then **Create**.
 
+![LAW2](screenshots/setup6.png)
+
 **Note**: This workspace serves as the hub for storing, analyzing, and querying honeypot log data.
 
 ---
@@ -90,37 +91,43 @@
 ## 4. Configuring Microsoft Defender for Cloud
 1. Search for **Microsoft Defender for Cloud** in the Azure Portal and open it.
 
-![Defender Search](screenshots/setup7.png)
+![Environment Settings](screenshots/setup8.png)  
 
 2. Navigate to **Environment settings** and locate your workspace (e.g., `LAW-Honeypot`).
 
-![Environment Settings](screenshots/setup8.png)  
 ![Select Log Analytics Workspace](screenshots/setup9.png)
 
 3. Enable **Defender Plans**:
+   - Find the VM and click on it.
+
+![Enable Defender Plans](screenshots/setup10.png)   
+
    - Toggle **Servers**: `On`
    - Set **SQL Servers**: `Off` (to avoid costs).
 
-![Enable Defender Plans](screenshots/setup10.png)
+![Data Collection](screenshots/setup11.png)
 
 4. Configure **Data Collection**:
    - Select **All Events** for comprehensive logging.
    - Click **Save**.
 
-![Data Collection](screenshots/setup11.png)
+
 
 ---
 
 ## 5. Connecting the Honeypot VM to Sentinel
 1. Open **Microsoft Sentinel** from the Azure Portal search.
 
-![Open Sentinel](screenshots/setup13.png)
+![Verify Sentinel Setup](screenshots/setup15.png)
 
 2. Click **Create Microsoft Sentinel** and select your workspace (e.g., `LAW-Honeypot`).
-3. Complete the setup and verify Sentinel is linked to your workspace.
 
+![Create Sentinel](screenshots/setup16.png)
+
+3. Go to **Virtual Machines** and connect the VM.
+
+![Open Sentinel](screenshots/setup13.png)
 ![Create Sentinel Instance](screenshots/setup14.png)  
-![Verify Sentinel Setup](screenshots/setup15.png)
 
 ---
 
@@ -133,8 +140,6 @@
 ### Disable the Firewall
 1. Open **Windows Defender Firewall** settings.
 2. Disable both **Public** and **Private** firewalls.
-
-![Firewall Settings](screenshots/setup16.png)
 
 ---
 
