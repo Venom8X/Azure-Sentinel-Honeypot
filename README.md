@@ -6,6 +6,8 @@
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Getting Started](#getting-started)
 
+---
+
 ## Project Overview
 This project sets up a **vulnerable virtual machine (VM) in Microsoft Azure** as a honeypot to attract and log unauthorized **Remote Desktop Protocol (RDP) attacks**. Using **Azure Sentinel**, the project:
 
