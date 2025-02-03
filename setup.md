@@ -1,12 +1,14 @@
 # Azure Honeypot Setup Guide
 
 ## Table of Contents
-1. [Create an Azure Account](#1-create-an-azure-account)
-2. [Deploy the Virtual Machine (VM)](#2-deploy-the-virtual-machine-vm)
-3. [Create Log Analytics Workspace](#3-create-log-analytics-workspace)
-4. [Configuring Microsoft Defender for Cloud](#4-configuring-microsoft-defender-for-cloud)
-5. [Connecting the Honeypot VM to Sentinel](#5-connecting-the-honeypot-vm-to-sentinel)
-6. [Accessing the VM](#6-accessing-the-vm)
+- [Create an Azure Account](#1-create-an-azure-account)
+- [Deploy the Virtual Machine (VM)](#2-deploy-the-virtual-machine-vm)
+- [Create Log Analytics Workspace](#3-create-log-analytics-workspace)
+- [Configuring Microsoft Defender for Cloud](#4-configuring-microsoft-defender-for-cloud)
+- [Connecting the Honeypot VM to Sentinel](#5-connecting-the-honeypot-vm-to-sentinel)
+- [Accessing the VM](#6-accessing-the-vm)
+- [Next Step: Log Analysis](logs_analysis.md)
+- [Back to Active Directory Home Lab README](README.md)
 
 ---
 
@@ -147,3 +149,11 @@
 2. Disable both **Public** and **Private** firewalls.
 
 ---
+
+[🔝 Back to Table of Contents](#table-of-contents)
+
+##
+[Next Step: Log Analysis](logs_analysis.md)
+
+[Back to Active Directory Home Lab README](README.md)
+##

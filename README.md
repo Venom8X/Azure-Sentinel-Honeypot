@@ -5,7 +5,7 @@
 - [Technologies Used](#technologies-used)
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Getting Started](#getting-started)
-
+- [Step 1: Setup](setup.md)
 ---
 
 ## Project Overview
@@ -19,7 +19,7 @@ This project sets up a **vulnerable virtual machine (VM) in Microsoft Azure** as
 ### Project Architecture
 The following diagram illustrates the high-level architecture of the honeypot setup:
 
-![Azure Sentinel Honeypot Architecture](screenshots/diagram.png) 
+![Azure Sentinel Honeypot Architecture](screenshots/readme1.png) 
 
 ## Technologies Used
 - **Microsoft Azure** – Cloud platform for VM deployment and monitoring  
@@ -52,4 +52,5 @@ This project is for **educational and research purposes only**. Deploying honeyp
 
 ---
 
-Refer to the detailed documentation in each respective `.md` file for step-by-step instructions and technical breakdowns.
+[🔝 Back to Table of Contents](#table-of-contents)
+
