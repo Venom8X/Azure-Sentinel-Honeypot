@@ -8,6 +8,7 @@
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Getting Started](#getting-started)
 - [Future Enhancements](#future-enhancements)
+- [Step 1: Setup](setup.md)
 
 ---
 
