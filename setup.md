@@ -75,12 +75,12 @@
 
 ![LAW](screenshots/setup5.png)  
 
-2. Click **Review + Create** and fill in:
+2. Fill in the following information:
    - **Subscription**: Use your active subscription.
    - **Resource Group**: Select `Honeypot-RG`.
    - **Name**: Set a name (e.g., `LAW-Honeypot`).
    - **Region**: Choose a location (e.g., `West US 2`).
-3. Click **Review + Create**, then **Create**.
+   - Click **Review + Create**
 
 ![LAW2](screenshots/setup6.png)
 
@@ -123,6 +123,7 @@
 2. Click **Create Microsoft Sentinel** and select your workspace (e.g., `LAW-Honeypot`).
 
 ![Create Sentinel](screenshots/setup16.png)
+![Add VM](screenshots/setup17.png)
 
 3. Go to **Virtual Machines** and connect the VM.
 
