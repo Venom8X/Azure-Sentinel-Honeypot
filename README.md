@@ -1,14 +1,17 @@
 # Azure Sentinel Honeypot – Live Cyber Attack Visualization
 
 ## Table of Contents
-- [Project Overview](#project-overview)
+- [Project Overview](#overview)
+- [Objectives](#objectives)
+- [Skills Demonstrated](#skills-demonstrated)
 - [Technologies Used](#technologies-used)
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Getting Started](#getting-started)
-- [Step 1: Setup](setup.md)
+- [Future Enhancements](#future-enhancements)
+
 ---
 
-## Project Overview
+## Overview
 This project sets up a **vulnerable virtual machine (VM) in Microsoft Azure** as a honeypot to attract and log unauthorized **Remote Desktop Protocol (RDP) attacks**. Using **Azure Sentinel**, the project:
 
 - Captures and analyzes **failed RDP login attempts**  
@@ -20,6 +23,22 @@ This project sets up a **vulnerable virtual machine (VM) in Microsoft Azure** as
 The following diagram illustrates the high-level architecture of the honeypot setup:
 
 ![Azure Sentinel Honeypot Architecture](screenshots/readme1.png) 
+
+## Objectives
+- **Deploy Azure Resources**: Set up and configure essential Azure components, including Virtual Machines (VMs), Log Analytics Workspaces, and Azure Sentinel, to create a functional honeypot environment.
+- **Implement a Honeypot**: Establish a decoy system designed to attract and monitor malicious activity, providing valuable insights into potential threats and attackers' tactics.
+- **Integrate SIEM Solutions**: Utilize Azure Sentinel as a Security Information and Event Management (SIEM) tool to collect, analyze, and respond to security events in real-time.
+- **Data Visualization**: Create interactive dashboards and visualizations, such as world maps, to display attack data and statistics effectively.
+
+## Skills Demonstrated
+
+- **Azure Resource Management**: Proficiently manage and deploy Azure services, including Virtual Machines, Log Analytics Workspaces, and Sentinel.
+- **Security Monitoring**: Implement and monitor honeypot systems to detect and analyze unauthorized access attempts and potential security threats.
+- **Log Analysis with KQL**: Utilize Kusto Query Language (KQL) to query and analyze logs within Azure Sentinel, extracting meaningful insights from collected data.
+- **API Integration**: Integrate third-party APIs, such as ipgeolocation.io, to enrich log data with geolocation information, enhancing the context of security events.
+- **PowerShell Scripting**: Develop and execute PowerShell scripts to automate tasks, such as exporting Windows Event Viewer logs and processing data for analysis.
+- **Data Visualization**: Design and implement interactive workbooks and dashboards in Azure Sentinel to visualize attack data, including geolocation mapping of malicious IP addresses.
+
 
 ## Technologies Used
 - **Microsoft Azure** – Cloud platform for VM deployment and monitoring  
