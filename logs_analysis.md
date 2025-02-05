@@ -74,28 +74,6 @@ This information will be used to:
 
 ---
 
-### Step 3: Using the Website
-1. On the IP Geolocation homepage:
-   - Enter the **Source Network Address** (IP address) from the logs collected in the Event Viewer (e.g., `185.170.144.3`).
-   - Click the search icon or press **Enter**.
-2. Review the detailed information displayed for the IP address.
-   - **Example**:
-     - IP: `20.3.142.219`
-     - Country: `United States`
-     - Continent: `North America`
-     - Country Capital: `Washington, D.C.`
-3. Copy the data for later use in plotting the locations on a world map.
-
----
-
-### Notes
-- Make sure to document the information from each IP address you analyze.
-- The latitude and longitude provided will be essential for creating geolocation visualizations in later steps.
-
-**Next Steps**: After collecting the geolocation data, proceed to the **Geolocation Visualization** section to map the attack sources.
-
----
-
 ## Using the Custom PowerShell Script to Analyze IP Addresses
 
 ### Step 1: Overview of the PowerShell Script
