@@ -7,7 +7,7 @@
 - [Technologies Used](#technologies-used)
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Future Enhancements](#future-enhancements)
-- [Step 1: Setup](setup.md)
+- [Step 1: Azure Honeypot Setup Guide](setup.md)
 - [Step 2: Analyzing Security Logs in Event Viewer](logs_analysis.md)
 - [Step 3: Geolocation Visualization in Microsoft Sentinel](geolocation_visualization.md)
 
