@@ -7,7 +7,7 @@
 - [Configuring Microsoft Defender for Cloud](#4-configuring-microsoft-defender-for-cloud)
 - [Connecting the Honeypot VM to Sentinel](#5-connecting-the-honeypot-vm-to-sentinel)
 - [Accessing the VM](#6-accessing-the-vm)
-- [Next Step: Log Analysis](logs_analysis.md)
+- [Next Step: Analyzing Security Logs in Event Viewer](logs_analysis.md)
 - [Back to Active Directory Home Lab README](README.md)
 
 ---
@@ -152,7 +152,7 @@ Logging in through RDP
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-[Next Step: Log Analysis](logs_analysis.md)
+[Next Step: Analyzing Security Logs in Event Viewer](logs_analysis.md)
 
 [Back to Active Directory Home Lab README](README.md)
 ##
