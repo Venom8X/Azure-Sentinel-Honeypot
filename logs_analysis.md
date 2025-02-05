@@ -100,7 +100,7 @@ The custom PowerShell script, **Custom_Security_Log_Exporter.ps1**, is designed 
 - Export the collected data into a structured format for analysis (e.g., CSV).
 
 You can find the script in the project repository:
-[Custom_Security_Log_Exporter.ps1](https://github.com/Venom8X/Azure-Sentinel-Honeypot/blob/main/scripts/Custom_Security_Log_Exporter.ps1)
+[Custom Security Log Explorer Script](https://github.com/Venom8X/Azure-Sentinel-Honeypot/blob/main/Custom_Security_Log_Explorer.ps1)
 
 ---
 
