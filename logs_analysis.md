@@ -21,7 +21,6 @@ Take a closer look at the details of an **Audit Failure** event:
 2. **Account Name**: Indicates which account was targeted (e.g., `Administrator`).
 3. **Failure Reason**: Explains why the authentication failed (e.g., "Unknown user name or bad password").
 
-### Screenshot Reference
 Below is an example of an **Audit Failure** log (Event ID 4625). Note the details that will be extracted for further analysis:
 - **Source Network Address**: `185.170.144.3`
 - **Event Time**: `2/5/2025, 2:40:32 AM`
@@ -59,6 +58,8 @@ Below is an example of an **Audit Failure** log (Event ID 4625). Note the detail
 2. Visit the following website: [IP Geolocation](https://ipgeolocation.io).
 3. Sign up for the website and get your API key that we will need to run our PowerShell script.
 
+![IP Geolocation Example](screenshots/logs2.png)
+
 ---
 
 ### Step 2: Understand the Purpose
@@ -84,12 +85,6 @@ This information will be used to:
      - Continent: `North America`
      - Country Capital: `Washington, D.C.`
 3. Copy the data for later use in plotting the locations on a world map.
-
----
-
-### Screenshot Reference
-Below is an example of the IP Geolocation interface with details for an IP address:
-![IP Geolocation Example](screenshots/logs2.png)
 
 ---
 
@@ -129,8 +124,8 @@ You can find the script in the project repository:
    ```powershell
    cd C:\Path\To\Script
 3. Execute the script by running the following command:
-```powershell
-.\Custom_Security_Log_Exporter.ps1
+   ```powershell
+   .\Custom_Security_Log_Exporter.ps1
 ```
 
 ---
@@ -147,7 +142,7 @@ You can find the script in the project repository:
 3. The output will be saved in a CSV file for further analysis.
 
 ### Notes
--Ensure that you have administrative privileges to access the Event Viewer logs.
+-Make sure that you have administrative privileges to access the Event Viewer logs.
 -This script automates the process of collecting and exporting data, saving significant time and effort.
 -The exported CSV file will be used in the next steps for geolocation visualization.
 
