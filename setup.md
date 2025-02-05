@@ -146,7 +146,7 @@
 
 ### Disable the Firewall
 1. Open **Windows Defender Firewall** settings.
-2. Disable both **Public** and **Private** firewalls.
+2. Disable **Domain**, **Public**, and **Private** firewalls under **Firewall state**.
 
 ---
 
