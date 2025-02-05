@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Create an Azure Account
+### Create an Azure Account
 1. Navigate to [Microsoft Azure](https://azure.microsoft.com/).
 2. Sign up for a free account or log in to your existing account.
 3. Ensure you have an active subscription.
@@ -21,7 +21,7 @@
 
 ---
 
-## 2. Deploy the Virtual Machine (VM)
+### Deploy the Virtual Machine (VM)
 
 ### Navigate to Virtual Machines
 1. In the Azure Portal, select **Virtual Machines** in the left-hand menu.
@@ -67,7 +67,7 @@
 
 ---
 
-## 3. Create Logs Analytics Workspaces
+### Create Logs Analytics Workspaces
 1. Search for **Log Analytics Workspaces** in the Azure Portal.
 
 ![LAW](screenshots/setup5.png)  
@@ -85,7 +85,7 @@
 
 ---
 
-## 4. Configuring Microsoft Defender for Cloud
+### Configuring Microsoft Defender for Cloud
 1. Search for **Microsoft Defender for Cloud** in the Azure Portal and open it.
 
 ![Environment Settings](screenshots/setup8.png)  
@@ -112,7 +112,7 @@
 
 ---
 
-## 5. Connecting the Honeypot VM to Sentinel
+### Connecting the Honeypot VM to Sentinel
 1. Open **Microsoft Sentinel** from the Azure Portal search.
 
 ![Verify Sentinel Setup](screenshots/setup15.png)
@@ -129,9 +129,8 @@
 
 ---
 
-## 6. Accessing the VM
-
-### Logging in through RDP
+### Accessing the VM
+Logging in through RDP
 1. Copy the VM's public IP address.
 
 ![Copy IP](screenshots/setup18.png)

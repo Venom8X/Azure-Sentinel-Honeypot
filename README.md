@@ -8,6 +8,8 @@
 - [Screenshots & Documentation](#screenshots--documentation)
 - [Future Enhancements](#future-enhancements)
 - [Step 1: Setup](setup.md)
+- [Step 2: Analyzing Security Logs in Event Viewer](logs_analysis.md)
+- [Step 3: Geolocation Visualization in Microsoft Sentinel](geolocation_visualization.md)
 
 ---
 
@@ -67,3 +69,4 @@ This project is for **educational and research purposes only**. Deploying honeyp
 
 [🔝 Back to Table of Contents](#table-of-contents)
 
+[Step 1: Setup](setup.md)
