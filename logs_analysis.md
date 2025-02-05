@@ -123,5 +123,42 @@ You can find the script in the project repository:
 -Make sure that you have administrative privileges to access the Event Viewer logs.
 -This script automates the process of collecting and exporting data, saving significant time and effort.
 -The exported CSV file will be used in the next steps for geolocation visualization.
+-The exported CSV file will be output into the ProgramData folder which is hidden, so access it by manually typing in, `C:\ProgramData` into the File Explorer address bar and press `Enter`.
 
-Next Steps: After running the script and generating the CSV file, proceed to the Geolocation Visualization section to plot the IP addresses on a world map.
+---
+
+### Step 5: Creating Custom Logs in Log Analytics Workspace
+1. **Access Log Analytics Workspace**
+   - Navigate to your Log Analytics Workspace in Azure.
+   - Use the search bar and type `tables`, then click on **Tables** under Settings.
+
+   ![Log Analytics Tables](screenshots/logs4.png)
+
+2. **Initiate Custom Log Creation**
+   - Click the **+ Create** button at the top and select **New custom log (MMA-based)**.
+
+   ![Create Custom Log](screenshots/logs5.png)
+
+3. **Upload a Sample Log**
+   - On the "Sample" page, upload a sample of your custom log file (e.g., `failed_rdp.log`).
+   - This file will be used to define the structure of the custom log.
+
+   ![Upload Sample Log](screenshots/logs6.png)
+
+4. **Define Record Delimiter**
+   - Configure how log records are separated in the file. Ensure this matches the structure of your log file.
+
+5. **Specify Collection Path**
+   - Under "Collection paths," define where the agent should find the log file.
+   - Example: `C:\ProgramData\failed_rdp.log`.
+
+   ![Define Collection Path](screenshots/logs7.png)
+
+6. **Set Log Details**
+   - Provide a unique name for the custom log (e.g., `FAILED_RDP_WITH_GEO_CL`).
+   - Optionally, add a description for better identification.
+
+   ![Set Custom Log Details](screenshots/logs8.png)
+
+7. **Review and Create**
+   - Review the configuration and click **Create** to deploy the custom log.
