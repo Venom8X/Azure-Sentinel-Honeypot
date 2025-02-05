@@ -105,10 +105,8 @@ You can find the script in the project repository
 
 ### Downloading the Script
 1. Open a browser on your system or VM.
-2. Navigate to the GitHub repository for this project:
-   [Azure-Sentinel-Honeypot Repository](https://github.com/Venom8X/Azure-Sentinel-Honeypot)
-3. Locate the script in the `scripts` folder.
-4. Download the script by clicking on the **Raw** button and saving it as `Custom_Security_Log_Exporter.ps1`.
+2. Navigate to the GitHub repository for this project and download the PowerShell script called Custom_Security_Log_Explorer.ps1.
+3. Download the script by clicking on the **Raw** button and saving it as `Custom_Security_Log_Exporter.ps1`.
 
 ---
 
