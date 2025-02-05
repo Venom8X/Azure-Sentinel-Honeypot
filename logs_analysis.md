@@ -104,7 +104,7 @@ You can find the script in the project repository:
 3. Execute the script by running the following command:
    ```powershell
    .\Custom_Security_Log_Exporter.ps1
-```
+   ```
 
 ---
 
