@@ -267,7 +267,6 @@ You can find the script in the project repository
    | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF 
    | where destinationhost_CF != "samplehost" 
    | where sourcehost_CF != ""
-```
 
 7.Adjust the Time Range in the query settings to Last 24 Hours or the desired timeframe.
 8.Click Run Query to execute the query.
